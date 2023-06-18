@@ -1,5 +1,4 @@
 
-// let input = document.querySelector(".input")
 let form = document.querySelector(".main-container")
 form.addEventListener("submit",(e)=>{
 e.preventDefault();

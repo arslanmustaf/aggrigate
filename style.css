@@ -10,12 +10,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     background-color: #0b0211;
+    font-family: 'poppins';
 
 }
 
 .main-container {
-    width: 30%;
+    width: 32%;
     padding: 20px;
     border: 1px solid #252525;
     border-radius: 10px;
@@ -38,6 +40,7 @@ label {
     border-radius: 8px;
     font-size: 16px;
     padding: 6px 8px;
+    outline: none;
 
 }
 .aggr{
@@ -56,3 +59,97 @@ label {
     margin: auto;
     border: 1px solid transparent;
 }
+img{
+    display: none;
+}
+@media (max-width: 1132px) {
+    .main-container{
+        width: 38%;
+
+    }
+}
+@media (max-width: 992px) {
+
+    .main-container{
+        width: 45%;
+    }
+}
+@media (max-width: 892px) {
+    .main-container{
+        width: 54%;
+        
+    }
+}
+@media (max-width: 786px) {
+    .main-container{
+        width: 59%;
+        
+    }
+}
+@media (max-width: 688px) {
+    .main-container{
+        width: 66%;
+        
+    }
+}
+@media (max-width: 608px) {
+    body{
+        background-color: #fff;
+    }
+    .main-container{
+        width: 100%;
+        background-color: #fff;
+        border: transparent;
+        border-radius: 0;
+        padding: 25px;
+
+    }
+    img{
+        display: block;
+        width: 100%;
+
+    }
+    label{
+        color: rgb(82, 11, 11);
+    }
+    .input{
+        width: 94%;
+        background-color:rgb(3, 3, 82) ;
+        color: white;
+    }
+}
+@media (max-width: 490px) {
+
+    .main-container{
+        padding: 32px;
+    }
+    .input{
+        width: 98%;
+
+    }
+}
+@media (max-width: 448px) {
+    .main-container{
+        padding: 38px;
+    }
+}
+@media (max-width: 424px) {
+    .main-container{
+        padding: 45px;
+    }
+}
+@media (max-width: 386px) {
+    body{
+        justify-content: space-evenly;
+    }
+    .main-container{
+        padding: 46px;
+    }
+    .input{
+        width: 99%;
+    }
+    label{
+        font-size: 15px;
+    }
+}
+
