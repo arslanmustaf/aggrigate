@@ -58,6 +58,11 @@ label {
     border-radius: 9px;
     margin: auto;
     border: 1px solid transparent;
+    box-shadow: 1px 1px 2px 2px black;
+}
+.btn:hover{
+    box-shadow: 0 0 2px 1px black;
+    transform: translateY(-2px);
 }
 img{
     display: none;
@@ -95,6 +100,8 @@ img{
 @media (max-width: 608px) {
     body{
         background-color: #fff;
+        padding: 0;
+        justify-content: flex-start;
     }
     .main-container{
         width: 100%;
@@ -102,6 +109,7 @@ img{
         border: transparent;
         border-radius: 0;
         padding: 25px;
+        box-shadow: 0 0 0;
 
     }
     img{
@@ -109,7 +117,7 @@ img{
         width: 100%;
 
     }
-    label{
+    label,h2{
         color: rgb(82, 11, 11);
     }
     .input{
@@ -139,9 +147,7 @@ img{
     }
 }
 @media (max-width: 386px) {
-    body{
-        justify-content: space-evenly;
-    }
+
     .main-container{
         padding: 46px;
     }

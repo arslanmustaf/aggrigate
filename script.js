@@ -1,11 +1,12 @@
 
+// let input = document.querySelector(".input")
 let form = document.querySelector(".main-container")
 form.addEventListener("submit",(e)=>{
 e.preventDefault();
 let mo = document.getElementById("matric-obt").value
 let mt = document.getElementById("matric-total").value
 let io = document.getElementById("inter-obt").value
-let it = document.getElementById("matric-total").value
+let it = document.getElementById("inter-total").value
 let eo = document.getElementById("entry-obt").value
 let et = document.getElementById("entry-total").value
 
