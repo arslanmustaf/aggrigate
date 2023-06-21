@@ -39,9 +39,13 @@ label {
     height: 35px;
     border-radius: 8px;
     font-size: 16px;
+    color:#fff;
     padding: 6px 8px;
     outline: none;
 
+}
+.input::placeholder{
+    color: #fff;
 }
 .aggr{
     margin: auto;
